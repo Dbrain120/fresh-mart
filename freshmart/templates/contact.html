@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    
+<div class="card mb-3">
+    <div class="card-body" id="contact-body">
+        <h5 class="card-title"id="contact-title">CONTACT</h5>
+    </div>
+    <div>
+        <p class="map-block"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3061012117!2d-74.25987728992854!3d40.69714939078029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1573758276815!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+    </div>
+</div>
+<form>
+    <div class="container col-md-4">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+            <label for="inputEmail4"></label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="YOUR NAME">
+            </div>
+            <div class="form-group col-md-6">
+            <label for="inputPassword4"></label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="EMAIL">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress"></label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="SUBJECT">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress2"></label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="MESSAGE">
+        </div>
+        <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+    </div>
+</form>
+<div class="card-group">
+    <div class="card">
+        <div class="card-body">
+        <h5 class="card-title">Fresh Mart</h5>
+        <p class="card-text">Address: 123 Suspendis matti, Visaosang Building VST District, NY Accums, North American</p>
+        <p class="card-text">Hotline: 0123-456-78910
+                                  <br>0987-54-32100
+        </p>
+        <p class="card-text">Email: support@domain.com
+                                <br>bibostore@domain.com
+        </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+        <h5 class="card-title">PHOTO INSTGRAM</h5>
+       </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+        <h5 class="card-title">NEWSLETTER</h5>
+        <p class="card-text">Sign up for newsletter to receive special offers and exclusive news about FreshMart product</p>
+        <form>
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="inputPassword2" class="sr-only"></label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="ENTER YOUR EMAIL">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">SUBSCRIBE</button>
+        </form>
+    </div>
+    </div>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,68 @@
+h1 {
+    text-decoration: seagreen;
+    text-align: center;
+    font-style: italic;
+    font-display: initial;
+
+}
+h2 {
+    text-align: center;
+}
+
+.sub-title {
+    text-align: center;
+    text-decoration: slategrey;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+    background-color: green !important;
+    text-decoration: white  !important;
+    text-decoration-color: white !important;
+}
+.site-header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #a2a2a2;
+    background-color:green;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    -webkit-border-radius: 5px;
+    -moz-boder-shadow: 5px;
+    border-radius: 5px;
+}
+.card-title {
+    margin-bottom: 4rem !important;
+}
+
+.card-img-top{
+    width: 30px;
+
+}
+#contact-body {
+    background-color: #219621 !important;
+    text-align: center;
+    margin-top: -.25rem;
+}
+#contact-title{
+    text-decoration-color: white;
+}
+
+.map-block {
+    padding-block: 10%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: green !important;
+    border-color: green !important;
+}
+img {
+    height: 500px !important;
+    width: 1000% !important;
+}
+
+#image-group {
+    border-image: inherit;
+}
